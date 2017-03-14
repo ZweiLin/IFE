@@ -5,7 +5,8 @@ td, img, div, dl, dt, dd, input, table, th, tr, td {
 }
 
 body {
-    background-color: #dedede
+    background-color: #dedede;
+    min-width:1200px;
 }
 
 
@@ -92,7 +93,7 @@ footer {
 
 .Main {
     width: auto;
-    margin: 0 520px auto 20px;
+    margin: 0 450px auto  auto;
 }
 
 .para {
@@ -116,7 +117,7 @@ footer {
     float:right;
     margin-top: 20px;
     background-color: #FFF;
-    width: 450px;
+    width: 370px;
     border-right: #9f9f9f solid 2px;
     border-bottom: #9f9f9f solid 2px;
     padding: 30px 20px;
@@ -142,7 +143,7 @@ footer {
 }
 
 .submit {
-    width: 420px;
+    width: 370px;
     height: 50px;
     background-color: #3355d0;
     color: #FFF;
@@ -165,6 +166,6 @@ article {
     border-right: #9f9f9f solid 2px;
     border-bottom: #9f9f9f solid 2px;
     padding: 30px 20px;
-    width: auto;
+
     overflow: hidden;
 }
