@@ -1,0 +1,155 @@
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table,
+td, img, div, dl, dt, dd, input, table, th, tr, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dedede
+}
+
+article {
+    margin-top: 20px;
+    background-color: #FFF;
+    border-right: #9f9f9f solid 2px;
+    border-bottom: #9f9f9f solid 2px;
+    padding: 30px 20px;
+}
+
+h2 {
+    line-height: 50px;
+}
+
+h3 {
+    line-height: 35px;
+    font-weight: normal;
+}
+
+p {
+    line-height: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+    color: #FFF;
+    width: 500px;
+    border: #e6e6e6 solid 1px;
+}
+
+td {
+    border: #e6e6e6 solid 1px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    margin-top: 30px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.topBar {
+    background-color: #333;
+    height: 55px;
+}
+
+.topBar li {
+    float: right;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 13px;
+    line-height: 55px;
+}
+
+.logo {
+    float: left;
+    margin-left: 15px;
+}
+
+.list {
+    color: #FFF;
+}
+
+.list1 {
+    list-style-type: none;
+}
+
+.image {
+    list-style-type: none;
+    width: 600px;
+    border: #9f9f9f solid 2px;
+    padding: 30px 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.comWidth {
+    width: 1650px;
+    margin: 0 auto;
+}
+
+.para {
+    text-indent: 2em;
+    font-family: "Simhei", "黑体";
+    color: black;
+    font-size: 17px;
+}
+
+.ranking {
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.sum {
+    background-color: #cccccc;
+    font-weight: bold;
+}
+
+.asideForm {
+    margin-top: 20px;
+    background-color: #FFF;
+    width: 1400px;
+    border-right: #9f9f9f solid 2px;
+    border-bottom: #9f9f9f solid 2px;
+    padding: 30px 20px;
+    margin-left: 30px;
+}
+
+.register {
+    margin-left: 300px;
+}
+
+.register input, label {
+    line-height: 30px;
+    font-family: "Simhei","黑体";
+}
+
+.notice {
+    color: #9f9f9f;
+}
+
+.inputTab td {
+    border: none;
+}
+
+.lab {
+    text-align: right;
+}
+
+.submit {
+    width: 1000px;
+    height: 50px;
+    background-color: #3355d0;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}

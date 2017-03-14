@@ -1,0 +1,25 @@
+.block{
+    height: 200px;
+    width: 400px;
+    top:50%;
+    left:50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    position: absolute;
+    background-color: #cccccc;
+    overflow: hidden;
+}
+.topCircle,.bottomCircle{
+    height: 100px;
+    width: 100px;
+    background-color: #fc0;
+    border-radius: 50px;
+}
+.topCircle{
+    margin-top: -50px;
+    margin-left:-50px;
+}
+.bottomCircle{
+    margin-top: 100px;
+    margin-left:350px;
+}

@@ -1,0 +1,171 @@
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table,
+td, img, div, dl, dt, dd, input, table, th, tr, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dedede;
+    min-width:1200px;
+}
+
+
+h2 {
+    line-height: 50px;
+}
+
+h3 {
+    line-height: 35px;
+    font-weight: normal;
+}
+
+p {
+    line-height: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+    color: #FFF;
+    width: 500px;
+    border: #e6e6e6 solid 1px;
+}
+
+td {
+    border: #e6e6e6 solid 1px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    margin-top: 30px;
+    height: 60px;
+    width:100%;
+    line-height: 60px;
+    overflow: auto;
+}
+
+.topBar {
+    background-color: #333;
+    height: 55px;
+    width:100%;
+}
+
+.topBar li {
+    float: right;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 13px;
+    line-height: 55px;
+    width: 70px;
+}
+
+.logo {
+    float: left;
+    margin-left: 15px;
+}
+
+.list {
+    color: #FFF;
+}
+
+.list1 {
+    list-style-type: none;
+}
+
+.image {
+    list-style-type: none;
+    float: left;
+    width: auto;
+    border: #9f9f9f solid 2px;
+    padding: 30px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.Main {
+    width: auto;
+    margin: 20px 450px auto  auto;
+}
+
+.para {
+    text-indent: 2em;
+    font-family: "Simhei", "黑体";
+    color: black;
+    font-size: 17px;
+}
+
+.ranking {
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.sum {
+    background-color: #cccccc;
+    font-weight: bold;
+}
+
+.asideForm {
+    float:right;
+    margin-top: 20px;
+    background-color: #FFF;
+    width: 370px;
+    border-right: #9f9f9f solid 2px;
+    border-bottom: #9f9f9f solid 2px;
+    padding: 30px 20px;
+    margin-left: 17px;
+    margin-right: 13px;
+}
+
+.register input, label {
+    line-height: 30px;
+    font-family: "Simhei","黑体";
+}
+
+.notice {
+    color: #9f9f9f;
+}
+
+.inputTab td {
+    border: none;
+}
+
+.lab {
+    text-align: right;
+}
+
+.submit {
+    width: 370px;
+    height: 50px;
+    background-color: #3355d0;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.asideTitle {
+    text-align: center;
+    line-height: 50px;
+}
+.contain{
+    width: auto;
+    height: 80%;
+    overflow: auto;
+}
+article {
+    margin-top: 20px;
+    background-color: #FFF;
+    border-right: #9f9f9f solid 2px;
+    border-bottom: #9f9f9f solid 2px;
+    padding: 30px 20px;
+
+    overflow: hidden;
+}
