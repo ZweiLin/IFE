@@ -1,0 +1,51 @@
+.comWidth{
+	padding: 20px;
+	background-color: #eee;
+	border: #999 solid 1px;
+	width: auto;
+	height: 80%;
+	margin:2% 4% auto 4%;
+	overflow: auto; /*清除浮动*/
+}
+/*.comWidth:before,
+.comWidth:after {
+  content: "";
+  display: table;
+}
+.comWidth:after {
+  clear: both;
+}
+.comWidth {
+  *zoom: 1;  
+}*/ /*另一种清除浮动*/
+.teamBar{
+	float: left; 
+	width: 160px;
+	padding:20px;
+	height: 120px;
+    background-color: #FFF;
+    border:#999 solid 1px;
+}
+
+.logoBar{
+	float: right; 
+	width: 80px;
+	padding:20px;
+    background-color: #FFF;
+    border:#999 solid 1px;
+}
+.introduceBar{
+	background-color: #FFF;
+	width:auto;
+    margin: 0 160px auto 240px;
+    border:#999 solid 1px;
+}
+.passage{
+	padding: 20px;
+}
+.logo{
+	float: left;
+}
+.name{
+	float: right;
+}
