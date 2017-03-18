@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>IFE JavaScript Task 01</title>
+    <title>IFE JavaScript Task 02</title>
 </head>
 <body>
 
@@ -31,16 +31,19 @@
          将空气质量指数大于60的城市显示到aqi-list的列表中
          */
         var i=0;
+        var html="";
         var aqiList=document.getElementById("aqi-list");
-        while (i<aqiData.length){
-            if(aqiData[i][1]>60){
-                var node=document.createElement("li");
-                var textnode=document.createTextNode(aqiData[i]);
-                node.appendChild(textnode);
-                aqiList.appendChild(node);
-            }
-            i++;
-        }
+        aqiData
+            .filter(function (elem) {
+                return elem[1]>60;
+            })
+            .sort(function (a,b) {
+            return b[1]-a[1];
+            })
+            .forEach(function (elem,index) {
+              html+='<li>第'+(index+1)+'名：'+elem[0]+','+elem[1]+'</li>';
+            });
+        aqiList.innerHTML=html;
     })();
 
 </script>
