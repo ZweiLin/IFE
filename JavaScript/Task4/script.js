@@ -26,7 +26,7 @@ window.onload=function () {
     }
     btnPop.addEventListener("click",function () {
         if(list.lastChild){
-            var value=list.firstChild.innerHTML;
+            var value=list.lastChild.innerHTML;
             list.removeChild(list.lastChild);
             alert(value);
         }
