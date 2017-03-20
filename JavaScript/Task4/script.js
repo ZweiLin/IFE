@@ -13,6 +13,11 @@ window.onload=function () {
         var num=document.getElementById("num");
         var node=document.createElement("li");
         node.innerHTML=num.value;
+        node.addEventListener("click",function () {
+            var value=node.innerHTML;
+            node.parentNode.removeChild(this);
+            alert(value);
+        });
         return node;
     }
     function empty() {
@@ -20,7 +25,11 @@ window.onload=function () {
         num.value="";
     }
     btnPop.addEventListener("click",function () {
-        if(list.lastChild) list.removeChild(list.lastChild);
+        if(list.lastChild){
+            var value=list.firstChild.innerHTML;
+            list.removeChild(list.lastChild);
+            alert(value);
+        }
         else alert("队列已空！！");
     },false);
     btnPush.addEventListener("click",function () {
@@ -34,7 +43,11 @@ window.onload=function () {
         empty();
     },false);
     btnShift.addEventListener("click",function () {
-        if(list.firstChild) list.removeChild(list.firstChild);
+        if(list.firstChild){
+            var value=list.firstChild.innerHTML;
+            list.removeChild(list.firstChild);
+            alert(value);
+        }
         else alert("队列已空");
     },false);
 };
