@@ -25,13 +25,13 @@ window.onload=function () {
     },false);
     btnPush.addEventListener("click",function () {
         var node=getNum();
+        if(node.innerHTML) list.appendChild(node);
         empty();
-        if(node.value) list.appendChild(node);
     },false);
     btnUnshift.addEventListener("click",function () {
         var node=getNum();
+        if(node.innerHTML) list.insertBefore(node,list.firstChild);
         empty();
-        if(node.value) list.insertBefore(node,list.firstChild);
     },false);
     btnShift.addEventListener("click",function () {
         if(list.firstChild) list.removeChild(list.firstChild);
