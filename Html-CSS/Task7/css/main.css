@@ -1,0 +1,358 @@
+.comWidth{
+    background-color: #9f9f9f;
+    margin: 0 auto;
+    height: auto;
+    width: 1200px;
+ }
+.topBar{
+    width: 100%;
+    height: 40px;
+    overflow: auto;
+    background-color: #FFFFFF;
+}
+.topBar ul{
+    float: right;
+}
+.topBar ul li{
+    float: left;
+    width: 80px;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+.topBar span{
+    font-family: "Simhei", "黑体";
+    font-size: 20px;
+    padding-left: 40px;
+    line-height: 30px;
+}
+.topBar a{
+    text-decoration: none;
+    color: #333333;
+}
+.topBar .active{
+    color: #cd4a48;
+    padding-left: 5px;
+}
+.topBar span{
+    float: left;
+}
+.first{
+    color: #FFFFFF;
+    background-image: url(../img/first/img1.jpg);
+    width: 100%;
+    height: 550px;
+}
+.first article{
+    padding: 150px 0 35px 50px;
+}
+.first h1{
+    font-size: 50px;
+}
+.first input{
+    border: none;
+    font-size: 25px;
+    width: 240px;
+    height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 50px;
+    background-color: #d45d5c;
+}
+.second{
+    width: 100%;
+    height: 200px;
+    background-color: #FFFFFF;
+    overflow: auto;
+    padding: 40px 0;
+}
+.second ul{
+    height: 50%;
+    width: 100%;
+    overflow: auto;
+}
+.second li{
+    float: left;
+    height: 42%;
+    width: 15%;
+    text-align: center;
+    padding: 0 55px;
+}
+.second .listText{
+    border-left: 2px solid #938e8c;
+}
+.third{
+    width:100%;
+    height: 200px;
+    background-color: #ededed;
+    text-align: center;
+    padding: 60px 0;
+}
+.third p{
+    font-size: 40px;
+    color:#999999;
+    padding-top: 20px;
+}
+.forth{
+    width: 100%;
+    height: 260px;
+    background-image: url("../img/forth/1.png");
+    text-align: center;
+    color: #FFFFFF;
+    overflow: visible;
+    padding-top: 40px;
+}
+.forth h3{
+    margin-bottom: 25px;
+}
+.forth ul{
+    margin:20px auto 0 auto;
+    width: 75%;
+    height: 30px;
+}
+.forth ul li{
+    float: left;
+    width: 200px;
+    height: 30px;
+    color: #938e8c;
+    margin-right: 25px;
+}
+.forth input,select{
+    width: 100%;
+    height: 100%;
+}
+.forth input{
+    color: #FFFFFF;
+    border: none;
+    background-color: #cd4a48;
+}
+.fifth{
+    width: 1040px;
+    height: 400px;
+    background-color: #ededed;
+    padding: 50px 80px;
+}
+.fifth li{
+    width: 210px;
+    margin-right: 50px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    color: #5a5b5b;
+    font-size: 15px;
+    line-height: 25px;
+}
+.fifth .active h4{
+    position: relative;
+    bottom: 345px;
+    font-size: 25px;
+}
+.fifth .active span{
+    position: relative;
+    bottom: 340px;
+}
+.fifth .active img{
+    position: relative;
+    bottom:-50px;
+}
+.sixth{
+    width: 100%;
+    height: 480px;
+}
+.sixth article{
+    background-image: url("../img/sixth/1.png");
+    width: 55%;
+    height: 380px;
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 100px;
+}
+.sixth h3{
+    font-weight: normal;
+    font-size: 40px;
+}
+.sixth h1{
+    font-size: 120px;
+}
+.sixth aside{
+    float: right;
+    width: 36%;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding: 0 54px;
+}
+.sixth aside h3{
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 100px;
+    margin-bottom:30px;
+    text-align: center;
+}
+.sixth aside span{
+    color: #cd4a48;
+}
+.sixth aside p{
+    line-height: 35px;
+}
+.sixth input{
+    color: #d45d5c;
+    border: 1px solid #d45d5c;
+    background-color: #FFFFFF;
+    width: 120px;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+.seventh{
+    width: 100%;
+    height: 525px;
+    overflow: auto;
+}
+.seventh aside{
+    float: left;
+    width:769px;
+    height: 100%;
+}
+.seventh aside .left{
+    background-color: #d45d5c;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    float: left;
+}
+.seventh aside .right{
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: right;
+}
+.seventh aside p{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.leftBtn{
+    width:100px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: #d45d5c;
+}
+.rightBtn{
+    width:100px;
+    height: 30px;
+    border: 1px solid #d45d5c;
+    background-color: #FFFFFF;
+    color: #d45d5c;
+}
+.seventh article{
+    float: right;
+}
+.form{
+    width: 1000px;
+    height: 500px;
+    padding: 100px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.form header h3{
+    margin-bottom: 20px;
+}
+.form header p{
+    line-height: 30px;
+    color: #9f9f9f;
+}
+.form aside{
+    float: left;
+    width: 350px;
+    height: auto;
+    margin-top: 80px;
+    color: #9f9f9f;
+}
+.form aside li{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.form aside li h3{
+    margin-bottom: 30px;
+    color: #938e8c;
+}
+.form form{
+    float: right;
+    width: 600px;
+    margin-top: 80px;
+}
+.form form input{
+    background-color: #ededed;
+    height: 40px;
+    width: 260px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding-left: 10px;
+    float: left;
+}
+.form form textarea{
+    background-color: #ededed;
+    width: 550px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    float: left;
+}
+.form .submit{
+    width: 560px;
+}
+.contact{
+    background-color: #33363F;
+    width: 100%;
+    height: 150px;
+    color: #FFFFFF;
+    padding: 50px 0;
+    text-align: center;
+}
+.contact ul{
+    margin-top: 30px;
+    margin-left: 40%;
+    float: left;
+}
+.contact li{
+    float: left;
+    margin-right: 40px;
+}
+.contact input{
+    margin-top: 15px;
+    height: 35px;
+    border: none;
+    float: left;
+}
+.contact .text{
+    width: 300px;
+    margin-left: 400px;
+}
+.contact .submit{
+    width: 100px;
+}
+footer{
+    height: 50px;
+    background-color: #30303a;
+    color: #FFFFFF;
+    line-height: 50px;
+    font-size: 15px;
+}
+footer span{
+    margin-left: 40px;
+}
+footer a{
+    float: right;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #FFFFFF;
+}

@@ -2,27 +2,191 @@
 <html >
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>系好安全带,准备启航</title>
-
-    <script type="text/javascript">
-
-        //通过javascript的日期对象来得到当前的日期，并输出。
-        var date=new Date();
-        var year=date.getYear();
-        var day=date.getDay();
-        var weekday=["星期一","星期二","星期三","星期四","星期五","星期六","星期日"];
-        document.write(year+"年"+date.getMonth()+"月"+date.getDate()+"日 "+weekday[day-1]);
-        //成绩是一长窜的字符串不好处理，找规律后分割放到数组里更好操作哦
-        var scoreStr = "小明:87;小花:81;小红:97;小天:76;小张:74;小小:94;小西:90;小伍:76;小迪:64;小曼:76";
-
-
-
-        //从数组中将成绩撮出来，然后求和取整，并输出。
-
-
-
-    </script>
+    <title>Task 07</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
 </head>
 <body>
+    <div class="comWidth">
+        <nav class="topBar" id="1F">
+            <span><img src="img/top/logo.png">新世界</span>
+            <ul>
+                <li><a class="active" href="#">首页</a></li>
+                <li><a href="#">最新活动</a></li>
+                <li><a href="#">项目介绍</a></li>
+                <li><a href="#">爱心社区</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><img src="img/top/user.png"><a href="#" class="active">登录</a></li>
+            </ul>
+        </nav>
+        <div class="first">
+            <article>
+                <h1>Time of new life</h1>
+                <p>新时代，年轻的人们让我们一起<br>
+                    体验新生活，享受新生活</p>
+            </article>
+            <input type="button" value="开始体验">
+        </div>
+        <div class="second">
+           <ul>
+               <li><img src="img/second/1.png"></li>
+               <li><img src="img/second/2.png"></li>
+               <li><img src="img/second/3.png"></li>
+               <li><img src="img/second/4.png"></li>
+           </ul>
+            <ul>
+                <li><p>打造全新世界观，让你更爱你的生活</p></li>
+                <li class="listText"><p>丰富多彩的公益活动，发挥新世界的主人公意识</p></li>
+                <li class="listText"><p>时尚的新观念，超前体验未知的生活</p></li>
+                <li class="listText"><p>完善的培养机制，培养你的全新世界观</p></li>
+            </ul>
+        </div>
+        <div class="third">
+           <img src="img/third/1.png">
+           <p>关于新世界，你不知道的还有什么</p>
+        </div>
+        <div class="forth">
+           <h3>查找新世界城市活动信息</h3>
+            <p>每座城市的有不同的活动信息，请自主查询您所需要了解的城市</p>
+            <ul>
+               <li>
+                   <select>
+                       <option disabled selected>国家</option>
+                       <option>中国</option>
+                   </select>
+               </li>
+                <li>
+                    <select>
+                        <option disabled selected>省份</option>
+                        <option>北京市</option>
+                        <option>天津市</option>
+                        <option>河北市</option>
+                        <option>陕西省</option>
+                        <option>内蒙古自治区</option>
+                        <option>辽宁省</option>
+                    </select>
+                </li>
+                <li>
+                    <select>
+                        <option disabled selected>城市</option>
+                    </select>
+                </li>
+                <li>
+                    <input type="submit" value="搜索">
+                </li>
+           </ul>
+        </div>
+        <div class="fifth">
+            <ul>
+                <li>
+                    <img src="img/fifth/1.jpg">
+                    <h4>北京活动</h4>
+                    <span>新社区大联盟</span>
+                </li>
+                <li class="active">
+                    <img src="img/fifth/2.jpg">
+                    <h4>上海活动</h4>
+                    <span>夜上海新景观探索</span>
+                </li>
+                <li>
+                    <img src="img/fifth/3.jpg">
+                    <h4>深圳活动</h4>
+                    <span>全新海岸线观点站</span>
+                </li>
+                <li>
+                    <img src="img/fifth/4.jpg">
+                    <h4>香港活动</h4>
+                    <span>奢侈消费大派送</span>
+                </li>
+            </ul>
+        </div>
+        <div class="sixth">
+            <article>
+                <h3>新世界</h3>
+                <h1>TIME</h1>
+                <p>@新世界-北京</p>
+                <p>2016.04.01</p>
+            </article>
+            <aside>
+                <h3>新世界/<span>01</span></h3>
+                <p>
+                    新世界是个新世界新世界是个新世界新世界是个新世界
+                    新世界是个新世界新世界是个新世界新世界是个新世界
+                    新世界是个新世界新世界是个新世界新世界是个新世界
+                    新世界是个新世界
+                </p>
+                <input type="button" value="更多详情">
+                <img src="">
+            </aside>
+        </div>
+        <div class="seventh">
+            <aside>
+                <section class="left">
+                    <p>新时代<br>
+                    关于爱生活的我们</p>
+                    <input type="button" value="查看更多" class="leftBtn">
+                </section>
+                <section class="right">
+                    <p>新时代<br>
+                    关于爱生活的我们</p>
+                    <input type="button" value="查看更多" class="rightBtn">
+                </section>
+            </aside>
+            <article>
+                <img src="img/seventh/1.jpg">
+            </article>
+        </div>
+        <div class="form">
+            <header>
+                <h3>成为我们的志愿者</h3>
+                <p>新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情</p>
+                <p>那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
+            </header>
+            <aside>
+                <ul>
+                    <li>
+                        <h3>新世界志愿者协议</h3>
+                        <p>加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等自愿的原则......</p>
+                    </li>
+                    <li>
+                        <h3>新世界志愿者协议</h3>
+                        <p>加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等自愿的原则......</p>
+                    </li>
+                    <li>
+                        <h3>更多条款</h3>
+                    </li>
+                </ul>
+            </aside>
+            <form>
+                <input type="text" value="姓名：">
+                <input type="text" value="年龄：">
+                <input type="text" value="联系方式：">
+                <input type="text" value="联系地址：">
+                <textarea>请简单描述您梦想的生活：</textarea>
+                <input type="submit" value="提交申请" class="submit">
+            </form>
+        </div>
+        <div class="contact">
+            <header>
+                <h3>联系我们</h3>
+                <p>为了更好地获取我们最新的产品咨询，你可以留下您的电子邮箱快速订阅我们的产品资讯</p>
+                <p>也可以通过以下任何方式关注我们的动态</p>
+            </header>
+            <form action="#">
+                <input type="text" value="someone@email.com" class="text">
+                <input type="submit" value="提交" class="submit">
+            </form>
+            <ul>
+                <li><img src="img/contact/qq.png"></li>
+                <li><img src="img/contact/sina.png"></li>
+                <li><img src="img/contact/Twitter.png"></li>
+                <li><img src="img/contact/Internet.png"></li>
+            </ul>
+        </div>
+        <footer>
+            <span>@2016新世界</span>
+            <a href="#1F">Back to top</a>
+        </footer>
+    </div>
 </body>
 </html>
