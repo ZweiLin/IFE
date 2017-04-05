@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>html作业一</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <style type="text/css">
         .image {
             list-style-type: none;
@@ -9,8 +10,9 @@
     </style>
 </head>
 <body>
-<div>
-    <h1>网站一级标题</h1>
+<h1 class="text-primary text-center">网站一级标题</h1>
+<div class="row">
+<div class="col-md-9">
     <ul>
         <li><a href="#">导航链接一</a></li>
         <li><a href="#">导航链接二</a></li>
@@ -114,7 +116,7 @@
         </table>
     </article>
 </div>
-<div>
+<div class="col-md-3">
     <aside>
         <h2>侧栏注册窗口标题</h2>
         <form action="">
@@ -142,9 +144,10 @@
             <input type="checkbox" name="hobby" id="science">科学
             <label for="discription">个人描述：</label>
             <textarea id="discription" cols="30" rows="2">这是一个多行输入框，输入您的个人描述</textarea>
-            <input type="submit" name="submit" value="确认提交">
+            <input type="submit" name="submit" value="确认提交" class="btn btn-primary btn-block">
         </form>
     </aside>
+</div>
 </div>
 <footer>版权所有@</footer>
 </body>

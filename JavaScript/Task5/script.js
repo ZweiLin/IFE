@@ -18,7 +18,7 @@ window.onload=function () {
             context.fillStyle="red";
             if(numlist){
                 numlist.forEach(function (elem,index) {
-                    context.fillRect(1+3*index,100-elem,2,elem);
+                    context.fillRect(2+4*index,100-elem,3,elem);
                 });
             }
         }
@@ -48,7 +48,10 @@ window.onload=function () {
     }
     function getNum() {
         var num=document.getElementById("num");
-        return parseInt(num.value);
+        if(parseInt(num.value)<10||parseInt(num.value)>100){
+            alert("输入的数要在10到100之间！！");
+        }
+        else return parseInt(num.value);
     }
     function empty() {
         var num=document.getElementById("num");
@@ -61,17 +64,19 @@ window.onload=function () {
         drawRect(numlist);
     },false);
     btnPush.addEventListener("click",function () {
-        if(numlist.length>=100)
+        if(numlist.length>=60)
             alert("栈已满！！");
         else
-        numlist.push(getNum());
+          if (getNum())
+           numlist.push(getNum());
         drawRect(numlist);
     },false);
     btnUnshift.addEventListener("click",function () {
-        if (numlist.length>=100)
+        if (numlist.length>=60)
             alert("队列已满!!");
         else
-        numlist.unshift(getNum());
+            if (getNum())
+             numlist.unshift(getNum());
         drawRect(numlist);
     },false);
     btnShift.addEventListener("click",function () {
