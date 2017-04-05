@@ -1,0 +1,53 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,
+td,img,div,dl,dt,dd,input,table,th,tr,td{
+    margin:0;
+    padding:0;
+}
+.frame{
+    margin: 50px auto auto auto;
+    padding:0;
+    height: auto;
+    width: 1200px;
+    overflow: visible;
+}
+.control{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.control button{
+    width: 70px;
+    height: 40px;
+    margin-top:5px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+#numList ul{
+    width: auto;
+    height: 42px;
+    float: left;
+    overflow: visible;
+}
+#numList li{
+    font-size: 16px;
+    line-height: 28px;
+    width: auto;
+    height: 28px;
+    padding:6px 10px;
+    margin-right: 10px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    text-align: center;
+    color:#FFF;
+    background-color: #cd4a48;
+    float: left;
+    list-style: none;
+}
+#shift{
+    margin-left: 30px;
+}
+#drawing{
+    width: 100%;
+    height: 300px;
+    /*background-color: #ededed;*/
+}

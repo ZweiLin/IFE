@@ -35,12 +35,12 @@ window.onload=function () {
     btnPush.addEventListener("click",function () {
         var node=getNum();
         if(node.innerHTML) list.appendChild(node);
-        empty();
+        // empty();
     },false);
     btnUnshift.addEventListener("click",function () {
         var node=getNum();
         if(node.innerHTML) list.insertBefore(node,list.firstChild);
-        empty();
+        // 时
     },false);
     btnShift.addEventListener("click",function () {
         if(list.firstChild){
