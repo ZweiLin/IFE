@@ -1,0 +1,54 @@
+th{
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+tr:nth-of-type(odd){
+    background-color: #bebebe;
+}
+table tr:nth-child(2),tr:nth-child(3),tr:nth-child(4){
+    color: #f31e45;
+}
+input{
+    display: block;
+    height: 20px;
+    margin: 30px;
+}
+#old{
+    width: 70px;
+}
+#new{
+    width: 200px;
+    border: none;
+    box-shadow: 0 0 2px 3px #30afed;
+}
+.animateBox{
+    width: 250px;
+    height: 150px;
+    position: relative;
+    background-color: #1f8c50;
+}
+.tablist{
+    width: 95px;
+    height: 30px;
+    position: absolute;
+    top: 120px;
+    left: 157px;
+}
+.tab{
+    margin: 0;
+    width: 28px;
+    height: 100%;
+    background-color: #77e198;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+}
+#blue{
+    height: 100%;
+    width: 0;
+    background-color: #3355d0;
+}
+
