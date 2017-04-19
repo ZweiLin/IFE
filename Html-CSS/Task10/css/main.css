@@ -1,0 +1,48 @@
+body{
+    padding: 20px;
+    margin: 0;
+}
+.flexbox{
+    width: 100%;
+    min-width: 150px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: visible;
+    justify-content: space-between;
+    align-items: center;
+}
+#content1{
+    width: 150px;
+    height: 120px;
+    background-color: #ff524a;
+    margin-bottom: 20px;
+}
+#content2{
+    height: 100px;
+    width: 150px;
+    background-color: #ff524a;
+    margin-bottom: 20px;
+}
+#content3{
+    height: 40px;
+    width: 150px;
+    background-color: #ff524a;
+    margin-bottom: 20px;
+}
+#content4{
+    height: 200px;
+    width: 150px;
+    background-color: #5291ff;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 640px){
+    .flexbox{
+        align-items: flex-start;
+    }
+    #content1,#content2,#content3{
+        order: 1;
+    }
+}
