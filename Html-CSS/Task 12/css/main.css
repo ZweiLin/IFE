@@ -14,13 +14,15 @@ input{
     height: 20px;
     margin: 30px;
 }
-#old{
-    width: 70px;
-}
 #new{
+    width: 70px;
+    transition: width 2s;
+}
+#new:focus{
     width: 200px;
     border: none;
     box-shadow: 0 0 2px 3px #30afed;
+    transition: width 2s;
 }
 .animateBox{
     width: 250px;
