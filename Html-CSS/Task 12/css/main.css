@@ -29,19 +29,19 @@ input{
     background-color: #1f8c50;
 }
 .tablist{
-    width: 95px;
+    width: 96px;
     height: 30px;
     position: absolute;
     top: 120px;
-    left: 155px;
+    left: 154px;
 }
 .tab{
-    margin: 0;
-    width: 30%;
+    width: 30px;
     height: 100%;
     background-color: #77e198;
     text-decoration: none;
-    display: inline-block;
+    float: left;
+    margin-left: 2px;
     text-align: center;
     line-height: 30px;
     color: #ffffff;
