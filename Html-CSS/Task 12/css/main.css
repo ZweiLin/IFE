@@ -33,11 +33,11 @@ input{
     height: 30px;
     position: absolute;
     top: 120px;
-    left: 157px;
+    left: 155px;
 }
 .tab{
     margin: 0;
-    width: 28px;
+    width: 30%;
     height: 100%;
     background-color: #77e198;
     text-decoration: none;
