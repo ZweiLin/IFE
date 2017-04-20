@@ -66,7 +66,7 @@ window.onload=function () {
         if(key){
             var pattern=new RegExp(key);
             // alert(key);
-            alert(list.childNodes.length);
+            // alert(list.childNodes.length);
             Array.prototype.forEach.call(list.childNodes,function (elem) {
                 elem.style.backgroundColor="#ff263e";
                 // alert(pattern.test(elem.innerHTML));
