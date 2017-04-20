@@ -67,7 +67,7 @@ window.onload=function () {
             var pattern=new RegExp(key);
             // alert(key);
             alert(list.childNodes.length);
-            list.childNodes.forEach(function (elem) {
+            Array.prototype.forEach.call(list.childNodes,function (elem) {
                 elem.style.backgroundColor="#ff263e";
                 // alert(pattern.test(elem.innerHTML));
                 if(pattern.test(elem.innerHTML)){
