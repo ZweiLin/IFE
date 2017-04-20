@@ -1,0 +1,99 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,
+td,img,div,dl,dt,dd,input,table,th,tr,td{
+    margin:0;
+    padding:0;
+}
+label{
+    color: #FFFFFF;
+    background-color: #ff263e;
+    text-align: center;
+    width: 100%;
+    border-radius: 2px;
+    display: block;
+}
+textarea{
+    width: 100%;
+    height: 5em;
+    margin-bottom: 30px;
+    padding: 5px 30px;
+    border: 2px solid #ff263e;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+}
+.main{
+    width: 1050px;
+    margin: auto;
+    height: 800px;
+    overflow: visible;
+    padding: 0 140px;
+}
+.frame{
+    margin: 50px 20px auto auto;
+    padding:0;
+    height: auto;
+    width: 500px;
+    overflow: visible;
+    float: left;
+    text-align: center;
+}
+.control{
+    float: left;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+input{
+    width: 100px;
+    height: 40px;
+    margin-top:5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: #ff524a;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+}
+#textList{
+    float: left;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+#textList ul{
+    width: auto;
+    height: 42px;
+    float: left;
+    overflow: visible;
+}
+#textList li{
+    font-size: 16px;
+    line-height: 28px;
+    width: auto;
+    height: 28px;
+    padding:6px 10px;
+    margin-right: 10px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    text-align: center;
+    color:#FFF;
+    background-color: #ff263e;
+    float: left;
+    list-style: none;
+}
+#shift{
+    margin-left: 30px;
+}
+#matchText{
+    height: 25px;
+    width: 100%;
+    border: 2px solid #ff263e;
+    border-radius: 2px;
+    line-height: 25px;
+    margin: 0;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
