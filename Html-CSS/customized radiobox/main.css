@@ -1,0 +1,26 @@
+input{
+    width: 16px;
+    height: 16px;
+}
+.radio:checked{
+    width: 0;
+    margin: 0;
+}
+.radio:checked+label{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #e1313c;
+    border-radius: 50%;
+    display: inline-block;
+    content: ' ';
+}
+.radio:checked+label::after{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ff263e;
+    display: inline-block;
+    content: ' ';
+    margin-left: 25%;
+    margin-bottom: 29%;
+}
